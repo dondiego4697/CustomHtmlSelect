@@ -32,7 +32,7 @@ document.getElementById("element-id").value;
 **default** - значение по умолчанию
 </br>
 #### Для сборки проекта (localhost:3000):
-npm run webpack
-npm run start
+1. npm run webpack
+2. npm run start
 
 
