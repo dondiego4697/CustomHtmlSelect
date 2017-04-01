@@ -14,7 +14,7 @@ export default class CustomSelect {
         let listArr = Array.from(this.selectNodeList);
 
         listArr.forEach(optionList => {
-            let defaultVal = optionList.getAttribute("default");
+            let defaultVal = optionList.getAttribute("default") || 'Choose';
             let id = optionList.getAttribute("id");
             let optionArr = Array.from(optionList);
             let newCSelect = this._createCSelect(id, defaultVal, optionArr);
