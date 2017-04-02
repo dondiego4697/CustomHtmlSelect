@@ -34,7 +34,6 @@ document.getElementById("element-id").value;
 </br>
 
 #### Для сборки проекта:
-(! в одной консоли)
 1. set NODE_ENV=production - если хотите минимизированный файл
 2. npm run webpack
 Файл соберется по пути ***/dist/js***
