@@ -2,10 +2,8 @@
   "name": "sample",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "main.js",
   "scripts": {
-    "test": "",
-    "start": "node server.js",
     "webpack": "webpack --config webpack.config.js -w"
   },
   "keywords": [],
@@ -13,7 +11,9 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "express": "^4.15.2",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
     "webpack": "^2.3.2"
   }
 }
