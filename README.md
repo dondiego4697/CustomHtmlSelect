@@ -8,7 +8,7 @@
 ## Использование:
 ##### Необходимые для подключения файлы:
 ###### CSS:
-***/dist/css/customSelect.css***
+***/dist/css/customSelect.min.css***
 ######  JS:
 ***/dist/js/CustomSelect.min.js***
 ##### Образец написания select:
